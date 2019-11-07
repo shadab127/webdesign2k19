@@ -1,61 +1,64 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
-  <head>
-    <title>Web Workshop</title>
-    <link rel="stylesheet" href="style.css"></link>
-  </head>
-  <body>
-
-    <div class="container">
-      <h1 class="heading" id="h1">this is the heading</h1>
-      <h3 class="heading" id="h2">heading 3</h3>
-      <h4 class="heading">heading 4</h4>
-      <h5>heading 5</h5>
-      <h6>heading 6</h6>
-    </div>
-    <div>
-        <p>testing</p>
-    </div>
-
-
-    <p>this is a <b>sample</b> paragraph</p>
-
-    <form>
-      <label>Name :</label>
-      <input type="text" />
-      <br>
-      <input type="password" />
-      <br>
-      <input type="email" />
-      <br>
-      <input type="submit" />
-      <br>
-
-    </form>
-<button id="btn" onclick="temp()">Click Here !!</button>
-    <a href="https://www.google.com" >Click Here !!</a>
-
-    <img src="images/a.JPG" height=300 width=400 >
-
-
-    <table>
-      <tr>
-        <th>column1</th>
-        <th>column2</th>
-        <th>column3</th>
-      </tr>
-        <tr>
-          <td rowspan=2>1.1</td>
-          <td>1.2</td>
-          <td>1.3</td>
-        </tr>
-        <tr>
-
-          <td>2.2</td>
-          <td>2.3</td>
-        </tr>
-    </table>
-
-<script src="app.js"></script>
-  </body>
+    <head>
+        <title>ROUND 1</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="animate.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container" id="home">
+            <h1 class="wobble animated" ><img class="logo-img"src="Logo.png" alt="LOGO"> &nbsp;NIT, Jalandhar<img id="gif" src="Bulb_Balloon.gif"></h1>
+            
+            <div class="block-left" class="start">
+                <nav>
+                <h3>Navigation</h3>
+                <p>
+                    <a href="#home">> Home</a><br><br><br>
+                    <a href="#history">> History</a><br><br><br>
+                    <a href="#placements">> Placements</a><br><br><br>
+                    <a href="#housing">> Housing</a><br><br><br>
+                    <a href="#footer">> Footer</a>
+                </p>
+                </nav>
+            </div>
+            <div class="block-right">
+                <div id="history">
+                <h2>History</h2>
+                    <p class="position-type heartBeat animated">
+                     DATE 07/11/2019
+                    </p>
+                <p class="bounceInLeft animated">
+                    Dr. B R Ambedkar National Institute of Technology was established in 1987 as a Regional Engineering College and was given the status of National Institute of Technology (Deemed University) by the Government of India on 17 October 2002, under the aegis of Ministry of Human Resource Development, New Delhi. Subsequently, the Ministry of Human Resource Development, Government of India, declared the Institute as Institute of National Importance under the act of Parliament-2007.
+                </p>
+                </div>
+            <div id="placements">
+                <h3>Placements</h3>
+                <p class="bounceInRight animated">
+                 The institute is regularly visited by Indian and foreign Multinational corporations for offering jobs to final-year B.Tech and M.Tech students. The ratio of the number of students placed to total number is nearly 1:1, with a number of students receiving multiple job offers. Campus Interviews are arranged for the final year B.Tech/ M.Tech/ M.Sc. students. A large number of reputed Industrial houses in the country visit the Institution and select the final year students as Engineers/ Management Trainees. Some of the Companies invite the students to their Corporate Offices for the interviews.Major companies like Amazon,Infosys,Reliance Petrochemicals Limited,Hero Motor corp
+                </p>
+            </div>
+                <div id="housing">
+                <h3>Housing</h3>
+                <p class="bounceInLeft animated">
+                 The students of National Institute of Technology, Jalandhar are drawn from all parts of the country. There are seven (plus one extension to hostel number 7) boys' hostels, two girls' hostels and a mega girls' hostel. A mega hostel with three blocks was recently constructed. The facilities of reading room, indoor games, etc. are available in each hostel. Internet facility is provided in every hostel. Other facilities like geysers, water purifiers, and Washing Machines are provided in all the hostels. The residential accommodation in hostels comprises cubicles and dormitories which have four-seater, two-seater, and one-seater facility allotted on the basis of the year and course of study the student is pursuing.There are badminton courts, volleyball court, and special reading rooms which provide a good environment in the hostels.
+                </p>
+            </div>
+            </div>
+            <div class ="clearfix"></div>  
+        <footer id="footer">
+            <div class="row">
+                <p>
+                    This webpage was created by <br>Jayant(18103049), Harsh(18103041).
+                    <p class="team">TEAM SPARTANS</p>
+                </p>
+            </div>
+        </footer>
+            
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+    <script src="script.js"></script>
+    </body>
 </html>
