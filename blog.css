@@ -1,0 +1,12 @@
+#footer{
+    height:auto;
+    background-color: antiquewhite;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+
+}
+#footer div{
+    width:45%;
+    
+}
