@@ -1,35 +1,109 @@
-/**
- * @Author: shadabKhan
- * @Date:   Thursday, November 7th 2019, 5:44:27 pm
- * @Last modified by:   shadabKhan
- * @Last modified time: Thursday, November 7th 2019, 7:33:36 pm
- */
-body{
+*{
+font-family: arial;
+font-weight: bold;
+margin: 0;
+padding: 0;
+
+}
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../31250.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+
+}
+ul{
+float: right;
+margin-top: 50px;
+margin-right: 150px;
+}
+
+ul li{
+
+	display: inline;
+}
+ul li a{
+	text-decoration: none;
+color: white;
+border: 1px solid transparent;
+padding: 5px 10px;
+font
+
+
+
+}
+ul li a:hover{
+text-decoration: none;
+color: white;
+border: 1px solid white;
+background: transparent;
+padding: 5px 10px;
+
 
 }
 
-p{
-  font-family:sans-serif;
 }
-@keyframes example{
-  from { background-color: red;}
-  to { background-color: blue;}
-}
+.menu{
+left: 20%
 
-.container{
-  font-family:monospace;
-  width: 100px;
-  border: 2px solid black;
-  padding : 10px 15px 15px 20px;
-  margin: auto;
 
-  
 }
 
-.heading{
-  color: red;
+.title{
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.title h1{
+ color: white;
+ font-size: 60px;
+
+
+
+
+}
+.org{
+position: absolute;
+top: 52%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.org h4{
+ color: white;
+ font-size: 20px;
+ 
+
 }
 
-#h1{
-  color: green;
+.logo img{
+
+width: 80px;
+margin-left: 80px;
+margin-top: 20px;
+
+
+}
+footer{
+background-color: black;
+height: 250px;
+padding-left: 50px;
+padding-top: 50px;
+text-align: left;
+font-size: 12px;
+}
+
+.footer h1{
+color: white;
+font-weight: 500;
+
+}
+.footer h2{
+color: white;
+font-weight: 500;
+
+}
+content{
+background-color: white;
+height: 250px;
 }
